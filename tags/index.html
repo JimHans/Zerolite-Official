@@ -1855,7 +1855,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1681388924237),
+    lastupdate: new Date(1681392760030),
     sidebar: {
       for_page: ["blogger","category","tagcloud","lastupdate","music","webinfo"],
       for_post: ["blogger","toc","tagcloud","webinfo"],
@@ -2336,9 +2336,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                 href="/" onclick="return false;" title="文章"
+                href="/categories/" title="文章"
                   
                   
+                  
+                    active-action="action-categories"
                   >
                   <i class='fa-solid fa-book fa-fw'></i>文章
                 </a>
@@ -2349,13 +2351,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="所有发布"
+                href="/categories/%E5%85%AC%E5%91%8A/" title="公告"
                   
                   
                   
-                    active-action="action-categories"
+                    active-action="action-categoriesE585ACE5918A"
                   >
-                  <i class='fa-solid fa-folder-open fa-fw'></i>所有发布
+                  <i class='fa-solid fa-folder-open fa-fw'></i>公告
                 </a>
                 
               </li>
@@ -2366,11 +2368,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="项目信息"
+                href="/categories/%E9%A1%B9%E7%9B%AE%E5%8F%91%E5%B8%83/" title="项目信息"
                   
                   
                   
-                    active-action="action-categories"
+                    active-action="action-categoriesE9A1B9E79BAEE58F91E5B883"
                   >
                   <i class='fa-solid fa-project-diagram fa-fw'></i>项目信息
                 </a>
@@ -2541,9 +2543,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                 href="/" onclick="return false;" title="文章"
+                href="/categories/" title="文章"
                   
                   
+                  
+                    active-action="action-categories"
                   >
                   <i class='fa-solid fa-book fa-fw'></i>文章
                 </a>
@@ -2554,13 +2558,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="所有发布"
+                href="/categories/%E5%85%AC%E5%91%8A/" title="公告"
                   
                   
                   
-                    active-action="action-categories"
+                    active-action="action-categoriesE585ACE5918A"
                   >
-                  <i class='fa-solid fa-folder-open fa-fw'></i>所有发布
+                  <i class='fa-solid fa-folder-open fa-fw'></i>公告
                 </a>
                 
               </li>
@@ -2571,11 +2575,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                href="/categories/" title="项目信息"
+                href="/categories/%E9%A1%B9%E7%9B%AE%E5%8F%91%E5%B8%83/" title="项目信息"
                   
                   
                   
-                    active-action="action-categories"
+                    active-action="action-categoriesE9A1B9E79BAEE58F91E5B883"
                   >
                   <i class='fa-solid fa-project-diagram fa-fw'></i>项目信息
                 </a>
@@ -2764,17 +2768,17 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               <i class='fas fa-book fa-fw'></i><p>文章</p>
             </a>
           
-            <a href="/examples/"
+            <a href="/categories/"
               
               
-              active-action="action-examples">
+              active-action="action-categories">
               <i class='fas fa-compass-drafting fa-fw'></i><p>作品</p>
             </a>
           
-            <a href="/contributors/"
+            <a href="/about/"
               
               
-              active-action="action-contributors">
+              active-action="action-about">
               <i class='fas fa-circle-info fa-fw'></i><p>关于</p>
             </a>
           
@@ -3889,7 +3893,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   <script>
-  let imgs = ["/Images/Banner/Banner (4).jpg","/Images/Banner/Banner (5).jpg","/Images/Banner/Banner (3).jpg","/Images/Banner/Banner (1).jpg","/Images/Banner/Banner (1).png","/Images/Banner/Banner (2).jpg"];
+  let imgs = ["/Images/Banner/Banner (5).jpg","/Images/Banner/Banner (3).jpg","/Images/Banner/Banner (4).jpg","/Images/Banner/Banner (2).jpg","/Images/Banner/Banner (1).jpg","/Images/Banner/Banner (1).png"];
   let index = 0;
   let IntervalParallax = null;
 
@@ -3897,7 +3901,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let ParallaxWindow = document.querySelector("#parallax-window");
     
     Parallax.window = ParallaxWindow;
-    Parallax.options.fade = 500;
+    Parallax.options.fade = 900;
     Parallax.cache = 1;
     next_parallax();
     Parallax.init();
@@ -4136,6 +4140,29 @@ document.addEventListener("DOMContentLoaded", function () {
 <script src="https://unpkg.com/volantis-static@0.0.1654736714924/libs/pjax/pjax.min.js"></script>
 
 
+<!-- 样式位于：source/css/_plugins/pjaxanimate.styl -->
+
+<div class="pjax-animate">
+  
+    <script src="https://unpkg.com/volantis-static@0.0.1654736714924/libs/nprogress/nprogress.js"></script>
+    <div id="loading-bar-wrapper"><script>NProgress.configure({parent:"#loading-bar-wrapper",trickleSpeed: 100})</script></div>
+    <script>
+      window.ShowLoading = function() {
+        NProgress.start();
+      };
+      window.HideLoading = function() {
+        NProgress.done();
+      }
+    </script>
+  
+	<script>
+		volantis.pjax.push(window.HideLoading,'HideLoading');
+		volantis.pjax.send(window.ShowLoading,'ShowLoading');
+		volantis.pjax.error(window.HideLoading,'HideLoading');
+	</script>
+</div>
+
+
 <script>
     var pjax;
     document.addEventListener('DOMContentLoaded', function () {
@@ -4152,7 +4179,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "pjax", // <pjax></pjax> 标签
           "script[data-pjax], .pjax-reload script" // script标签添加data-pjax 或 script标签外层添加.pjax-reload 的script代码段重载
         ],
-        cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+        cacheBust: true,   // url 地址追加时间戳，用以避免浏览器缓存
         timeout: 5000,
         
       });
