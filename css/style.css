@@ -3929,7 +3929,6 @@ img.lazyload:not(.placeholder).loaded {
   -webkit-border-radius: 2px;
   flex-shrink: 0;
   margin-right: 8px;
-  pointer-events: none;
 }
 .md .checkbox input[type=checkbox]:before,
 .md .checkbox input[type=checkbox]:after {
