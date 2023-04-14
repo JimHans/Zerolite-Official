@@ -71,7 +71,7 @@
   --color-h6: #666;
   --color-p: #444;
   --color-list: #666;
-  --color-list-hl: #252c33;
+  --color-list-hl: #435861;
   --color-meta: #888;
   --color-read-bkg: #e0d8c8;
   --color-read-post: #f8f1e2;
@@ -93,7 +93,7 @@
   background: transparent;
 }
 *::-webkit-scrollbar-thumb {
-  background: #2f3840;
+  background: #546e7a;
   cursor: pointer;
   border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -116,7 +116,7 @@ html >::-webkit-scrollbar-track-piece {
   background: transparent;
 }
 html >::-webkit-scrollbar-thumb {
-  background: #2f3840;
+  background: #546e7a;
   cursor: pointer;
   border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -803,7 +803,7 @@ button {
     --color-h6: rgba(255,255,255,0.6);
     --color-p: rgba(217,217,217,0.871);
     --color-list: rgba(217,217,217,0.871);
-    --color-list-hl: #585f66;
+    --color-list-hl: #768b94;
     --color-meta: rgba(191,191,191,0.871);
     --color-link: rgba(191,191,191,0.871);
     --color-copyright-bkg: #21252b;
@@ -875,7 +875,7 @@ button {
   --color-h6: rgba(255,255,255,0.6);
   --color-p: rgba(217,217,217,0.871);
   --color-list: rgba(217,217,217,0.871);
-  --color-list-hl: #585f66;
+  --color-list-hl: #768b94;
   --color-meta: rgba(191,191,191,0.871);
   --color-link: rgba(191,191,191,0.871);
   --color-copyright-bkg: #21252b;
@@ -1144,7 +1144,7 @@ button {
   -moz-transition: all 0.28s ease;
   -o-transition: all 0.28s ease;
   -ms-transition: all 0.28s ease;
-  color: #2f3840;
+  color: #546e7a;
 }
 .l_header .switcher >li >a:hover {
   border: none;
@@ -1324,7 +1324,7 @@ ul.m-pc >li>a {
 }
 ul.m-pc >li>a:active,
 ul.m-pc >li>a.active {
-  border-bottom: 2px solid #2f3840;
+  border-bottom: 2px solid #546e7a;
 }
 ul.m-pc li:hover >ul.list-v,
 ul.list-v li:hover >ul.list-v {
@@ -1463,7 +1463,7 @@ ul.list-v >li>a:hover {
 }
 .l_header ul.nav-list-h>li >a:active,
 .l_header ul.nav-list-h>li >a.active {
-  color: #2f3840;
+  color: #546e7a;
 }
 .l_header ul.nav-list-h>li:hover>a {
   color: var(--color-list-hl);
@@ -1853,9 +1853,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: false,
-    cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
+    cdn: {"js":{"app":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/app.js","parallax":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/parallax.js","rightMenu":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/rightMenu.js","rightMenus":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/rightMenus.js","sites":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/tags/sites.js","friends":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/tags/friends.js","contributors":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/tags/contributors.js","search":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1681461250604),
+    lastupdate: new Date(1681465936465),
     sidebar: {
       for_page: ["blogger","category","tagcloud","lastupdate","music","webinfo"],
       for_post: ["blogger","toc","tagcloud","webinfo"],
@@ -2286,7 +2286,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <!-- Custom Files bodyBegin begin-->
     
     <!-- Custom Files bodyBegin end-->
-    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header always shadow floatable blur "  >
+    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur " style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -3403,7 +3403,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <!-- internal -->
 
-<script src="/js/app.js"></script>
+<script src="https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/app.js"></script>
 
 
 
@@ -3614,7 +3614,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   </ul>
 </div>
-<script src="/js/plugins/rightMenus.js"></script>
+<script src="https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/rightMenus.js"></script>
 <script>
   const RightMenusFunction = {};
   
@@ -3843,19 +3843,19 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/js/plugins/tags/sites.js")
+        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/tags/sites.js")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/js/plugins/tags/friends.js")
+        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/tags/friends.js")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/js/plugins/tags/contributors.js")
+        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/tags/contributors.js")
       }
     
   };
@@ -3951,7 +3951,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     await volantis.js("https://unpkg.com/volantis-static@0.0.1654736714924/libs/meting/dist/Meting.min.js")
   
     // 右键 music 需要在 APlayer  MetingJS 之后加载
-    await volantis.js('/js/plugins/aplayer.js')
+    await volantis.js('https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/aplayer.js')
   
   })();
 
@@ -4036,7 +4036,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("/js/search/hexo.js");
+    return volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/search/hexo.js");
   }
 
   function loadSearchService() {
@@ -4126,7 +4126,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   <script>
-  let imgs = ["/Images/Banner/Banner (3).jpg","/Images/Banner/Banner (4).jpg","/Images/Banner/Banner (5).jpg","/Images/Banner/Banner (2).jpg","/Images/Banner/Banner (1).jpg","/Images/Banner/Banner (1).png"];
+  let imgs = ["/Images/Banner/Banner (4).jpg","/Images/Banner/Banner (2).jpg","/Images/Banner/Banner (5).jpg","/Images/Banner/Banner (1).jpg","/Images/Banner/Banner (1).png","/Images/Banner/Banner (3).jpg"];
   let index = 0;
   let IntervalParallax = null;
 
@@ -4169,7 +4169,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var runningOnBrowser = typeof window !== "undefined";
   var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
   if (!isBot) {
-    volantis.js('/js/plugins/parallax.js').then(()=>{
+    volantis.js('https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/parallax.js').then(()=>{
       parallax()
     })
     volantis.pjax.send(()=>{
