@@ -1853,7 +1853,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/app.js","parallax":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/parallax.js","rightMenu":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/rightMenu.js","rightMenus":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/rightMenus.js","sites":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/tags/sites.js","friends":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/tags/friends.js","contributors":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/tags/contributors.js","search":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1681706700020),
+    lastupdate: new Date(1681706759436),
     sidebar: {
       for_page: ["blogger","category","tagcloud","lastupdate","music","webinfo"],
       for_post: ["blogger","toc","tagcloud","webinfo"],
@@ -3989,7 +3989,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
   function pjax_giscus() {
     const HEAD = check_giscus();
     if (!HEAD) return;
-    let cfg = Object.assign({"theme":{"light":"light","dark":"dark"},"data-repo":"JimHans/Zerolite-Official","data-repo-id":"MDEwOlJlcG9zaXRvcnkzNDg0MDY0OTM=","data-category":"General","data-category-id":"DIC_kwDOFMRC3c4CVvuH","data-mapping":"pathname","data-strict":"1","data-reactions-enabled":"1","data-emit-metadata":"0","data-input-position":"top","data-theme":"preferred_color_scheme","data-lang":"zh-CN","data-loading":"lazy","crossorigin":"anonymous"},pdata.commentConfig)
+    let cfg = Object.assign({"theme":{"light":"light","dark":"dark"},"repo":"JimHans/Zerolite-Official","repo-id":"MDEwOlJlcG9zaXRvcnkzNDg0MDY0OTM=","category":"General","category-id":"DIC_kwDOFMRC3c4CVvuH","mapping":"pathname","reactions-enabled":"1","emit-metadata":"0","input-position":"top","lang":"zh-CN","loading":"lazy"},pdata.commentConfig)
     const script = document.createElement('script');
     script.setAttribute('src', 'https://giscus.app/client.js');
     Object.keys(cfg).forEach(k=>{
@@ -4125,7 +4125,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   <script>
-  let imgs = ["/Images/Banner/Banner (4).jpg","/Images/Banner/Banner (3).jpg","/Images/Banner/Banner (1).png","/Images/Banner/Banner (1).jpg","/Images/Banner/Banner (5).jpg","/Images/Banner/Banner (2).jpg"];
+  let imgs = ["/Images/Banner/Banner (2).jpg","/Images/Banner/Banner (4).jpg","/Images/Banner/Banner (5).jpg","/Images/Banner/Banner (1).jpg","/Images/Banner/Banner (3).jpg","/Images/Banner/Banner (1).png"];
   let index = 0;
   let IntervalParallax = null;
 
