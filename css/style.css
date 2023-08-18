@@ -1353,7 +1353,7 @@ svg.loading {
   }
 }
 #l_main {
-  width: calc(100% - 1 * 240px);
+  width: calc(100% - 1 * 300px);
   padding-right: 16px;
   float: left;
 }
@@ -1365,7 +1365,7 @@ svg.loading {
 #l_main.no_sidebar {
   width: 100%;
   padding-right: 0;
-  max-width: 840px;
+  max-width: 1200px;
   margin: auto;
 }
 @media screen and (min-width: 2048px) {
@@ -1776,7 +1776,7 @@ svg.loading {
   display: flex /* NEW, Spec - Opera 12.1, Firefox 20+ */;
   display: flex;
   width: 100%;
-  max-width: 1080px;
+  max-width: 1440px;
   margin: 0 auto;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
@@ -2528,7 +2528,7 @@ img.lazyload:not(.placeholder).loaded {
   z-index: 1;
 }
 #l_side {
-  width: 240px;
+  width: 300px;
   float: right;
   position: relative;
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
@@ -3179,10 +3179,10 @@ img.lazyload:not(.placeholder).loaded {
   z-index: 2;
 }
 .snackbar-content {
-  max-width: 1080px;
+  max-width: 1440px;
   margin: 16px auto;
 }
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1440px) {
   .snackbar-content {
     max-width: 100%;
   }
