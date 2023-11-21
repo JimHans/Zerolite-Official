@@ -47,7 +47,7 @@
   -webkit-border-radius: 2px;
 }
 *::-webkit-scrollbar-thumb:hover {
-  background: #ff5722;
+  background: #2491ff;
 }
 html {
   color: var(--color-text);
@@ -70,7 +70,7 @@ html >::-webkit-scrollbar-thumb {
   -webkit-border-radius: 2px;
 }
 html >::-webkit-scrollbar-thumb:hover {
-  background: #ff5722;
+  background: #2491ff;
 }
 body {
   background-color: var(--color-site-body);
@@ -104,7 +104,7 @@ a {
   -ms-transition: all 0.28s ease;
 }
 a:hover {
-  color: #ff5722;
+  color: #2491ff;
 }
 a:active,
 a:hover {
