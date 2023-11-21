@@ -25,7 +25,7 @@
   <!-- Custom Files headBegin begin-->
   
   <!-- Custom Files headBegin end-->
-  <link rel="preload" href="/css/style.css" as="style">
+  <link rel="preload" href="https://unpkg.com/hexo-theme-volantis/source/css/style.css" as="style">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="https://db.onlinewebfonts.com/c/05e476e067ffef74ca5686f229c40a63?family=PingFang+SC+Regular" as="font" type="font/com/c/05e476e067ffef74ca5686f229c40a63?family=PingFang+SC+Regular" crossorigin="anonymous">
 
@@ -1774,8 +1774,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.css" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
+  <link rel="stylesheet" href="https://unpkg.com/hexo-theme-volantis/source/css/style.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="https://unpkg.com/hexo-theme-volantis/source/css/style.css"></noscript>
     <script>
       let userColorScheme=localStorage.getItem("color-scheme")
       if(userColorScheme){
@@ -1853,9 +1853,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: false,
-    cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
+    cdn: {"js":{"app":"https://unpkg.com/hexo-theme-volantis/source/js/app.js","parallax":"https://unpkg.com/hexo-theme-volantis/source/js/plugins/parallax.js","rightMenu":"https://unpkg.com/hexo-theme-volantis/source/js/plugins/rightMenu.js","rightMenus":"https://unpkg.com/hexo-theme-volantis/source/js/plugins/rightMenus.js","sites":"https://unpkg.com/hexo-theme-volantis/source/js/plugins/tags/sites.js","friends":"https://unpkg.com/hexo-theme-volantis/source/js/plugins/tags/friends.js","contributors":"https://unpkg.com/hexo-theme-volantis/source/js/plugins/tags/contributors.js","search":"https://unpkg.com/hexo-theme-volantis/source/js/search/hexo.js"},"css":{"style":"https://unpkg.com/hexo-theme-volantis/source/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1700569127420),
+    lastupdate: new Date(1700569403274),
     sidebar: {
       for_page: ["blogger","category","tagcloud","lastupdate","music","webinfo"],
       for_post: ["blogger","toc","tagcloud","webinfo"],
@@ -3231,21 +3231,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     <div class="prev-next">
       
-        <a class='prev' href='/2021/03/26/waifuprojv1.9/'>
-          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>[WaifuProject] 桌面看板娘 AIWaifu-Desktop V1.9.5Beta</p>
-          <p class='content'>连鸽2个月后，AIwaifu-Desktop正式从主分支中独立，并在独立后发布了第一个正式Beta版本。
-为区别于web版本，此版本更新完全后，主版本号将从2.0开始计算。
-此版本进行了大量的更...</p>
-        </a>
-      
-      
-        <a class='next' href='/2021/02/01/LighTracev1/'>
-          <p class='title'>[LighTraceProject] 溯光LighTrace 开发计划<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+        <a class='prev' href='/2021/02/01/LighTracev1/'>
+          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>[LighTraceProject] 溯光LighTrace 开发计划</p>
           <p class='content'>
 预计的开发周期：2021-01-20——2021-02-28
 实际的开发周期：2021-01-20——2021-03-05
 实际开发周期预计将长于目标(事实是的确长于目标)。届时某些功能将延后...</p>
         </a>
+      
       
     </div>
   
@@ -3655,7 +3648,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <!-- internal -->
 
-<script src="/js/app.js"></script>
+<script src="https://unpkg.com/hexo-theme-volantis/source/js/app.js"></script>
 
 
 
@@ -3866,7 +3859,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   </ul>
 </div>
-<script src="/js/plugins/rightMenus.js"></script>
+<script src="https://unpkg.com/hexo-theme-volantis/source/js/plugins/rightMenus.js"></script>
 <script>
   const RightMenusFunction = {};
   
@@ -4095,19 +4088,19 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/js/plugins/tags/sites.js")
+        volantis.js("https://unpkg.com/hexo-theme-volantis/source/js/plugins/tags/sites.js")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/js/plugins/tags/friends.js")
+        volantis.js("https://unpkg.com/hexo-theme-volantis/source/js/plugins/tags/friends.js")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/js/plugins/tags/contributors.js")
+        volantis.js("https://unpkg.com/hexo-theme-volantis/source/js/plugins/tags/contributors.js")
       }
     
   };
@@ -4203,7 +4196,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     await volantis.js("https://unpkg.com/volantis-static@0.0.1654736714924/libs/meting/dist/Meting.min.js")
   
     // 右键 music 需要在 APlayer  MetingJS 之后加载
-    await volantis.js('/js/plugins/aplayer.js')
+    await volantis.js('https://unpkg.com/hexo-theme-volantis/source/js/plugins/aplayer.js')
   
   })();
 
@@ -4339,7 +4332,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("/js/search/hexo.js");
+    return volantis.js("https://unpkg.com/hexo-theme-volantis/source/js/search/hexo.js");
   }
 
   function loadSearchService() {
@@ -4472,7 +4465,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var runningOnBrowser = typeof window !== "undefined";
   var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
   if (!isBot) {
-    volantis.js('/js/plugins/parallax.js').then(()=>{
+    volantis.js('https://unpkg.com/hexo-theme-volantis/source/js/plugins/parallax.js').then(()=>{
       parallax()
     })
     volantis.pjax.send(()=>{
